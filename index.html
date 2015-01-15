@@ -1,0 +1,22 @@
+ <!doctype html>
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    System.baseURL = '/';
+    // `app` is our project name, corresponding to the local `lib` folder
+    // these two properties are set in the `jspm init -p` prompts
+    System.import('app/main');
+  </script>
+
+  <h1> Hi</h1>
+  <div class='scribe'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+  <!-- 
+	jspm install github:components/jquery
+	jspm install scribe=github:guardian/scribe -o "{main:'scribe.js', format:'amd'}"
+
+   -->
